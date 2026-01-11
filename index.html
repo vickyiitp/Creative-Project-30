@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0f172a" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Spaghetti Untangler | Logic Puzzle for Developers</title>
+    <meta name="title" content="Spaghetti Untangler | Logic Puzzle for Developers" />
+    <meta name="description" content="Play Spaghetti Untangler, a coding-themed puzzle game. Refactor the mess, untangle dependencies, and save the build. Free browser game by Vicky Kumar." />
+    <meta name="keywords" content="puzzle game, logic game, planar graph, coding game, developer game, untangle, vicky kumar, vickyiitp, web game, react game" />
+    <meta name="author" content="Vicky Kumar (vickyiitp)" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://vickyiitp.tech/spaghetti-untangler" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vickyiitp.tech/spaghetti-untangler" />
+    <meta property="og:title" content="Spaghetti Untangler | Logic Puzzle for Developers" />
+    <meta property="og:description" content="Untangle the mess. Save the build. A logic puzzle game for developers." />
+    <meta property="og:image" content="https://vickyiitp.tech/og-image.jpg" />
+    <meta property="og:site_name" content="Spaghetti Untangler" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://vickyiitp.tech/spaghetti-untangler" />
+    <meta property="twitter:title" content="Spaghetti Untangler | Logic Puzzle for Developers" />
+    <meta property="twitter:description" content="Untangle the mess. Save the build. A logic puzzle game for developers." />
+    <meta property="twitter:image" content="https://vickyiitp.tech/og-image.jpg" />
+    <meta property="twitter:creator" content="@vickyiitp" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧶</text></svg>" />
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Spaghetti Untangler",
+          "url": "https://vickyiitp.tech/spaghetti-untangler",
+          "author": {
+            "@type": "Person",
+            "name": "Vicky Kumar",
+            "alternateName": "vickyiitp",
+            "url": "https://vickyiitp.tech"
+          },
+          "description": "An IDE-themed puzzle game where you untangle spaghetti code dependencies.",
+          "genre": "Puzzle Game",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Person",
+          "name": "Vicky Kumar",
+          "alternateName": "vickyiitp",
+          "url": "https://vickyiitp.tech",
+          "sameAs": [
+            "https://youtube.com/@vickyiitp",
+            "https://linkedin.com/in/vickyiitp",
+            "https://x.com/vickyiitp",
+            "https://github.com/vickyiitp",
+            "https://instagram.com/vickyiitp"
+          ],
+          "jobTitle": "AI Developer",
+          "alumniOf": "IIT Patna"
+        }
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;800&display=swap');
+      
+      body {
+        font-family: 'Fira Code', monospace;
+        overflow-x: hidden;
+        background-color: #0f172a; /* slate-900 */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overscroll-behavior: none; /* Prevent pull-to-refresh on mobile */
+      }
+      
+      /* Landing Page Typography Override */
+      .font-sans {
+        font-family: 'Inter', sans-serif;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569;
+      }
+      
+      /* Animation Utilities */
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

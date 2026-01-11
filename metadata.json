@@ -1,0 +1,5 @@
+{
+  "name": "Spaghetti Untangler",
+  "description": "An IDE-themed puzzle game where you untangle spaghetti code dependencies. Drag code blocks to arrange them so no dependency lines intersect.",
+  "requestFramePermissions": []
+}
